@@ -42,6 +42,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-        with:
-          username: ${{ inputs.username }}
-          token: ${{ secrets.token }}  
+ 
