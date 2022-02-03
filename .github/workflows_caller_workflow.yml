@@ -9,4 +9,4 @@ on:
   call-workflow:
     uses: partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable.yml
   call-workflow:
-    uses:partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable_workflow_second
+    uses:partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable_workflow_second.yml
