@@ -9,13 +9,6 @@ on:
 jobs:
   do-it:
     runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Run a one-line script
-        run: echo Hello, from min work flow!
-
   jobs:
   call-workflow:
     uses: partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable.yml
@@ -25,3 +18,8 @@ jobs:
     secrets:
       registry_username: ${{secrets.REGISTRY_USERNAME}}
       registry_password: ${{secrets.REGISTRY_PASSWORD}}
+ steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a one-line script
+        run: echo Hello, from min work flow!
