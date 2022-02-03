@@ -9,4 +9,4 @@ jobs:
   call-workflow-1-in-local-repo:
     uses: partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable.yml
   call-workflow-2-in-local-repo:
-    uses:partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable_workflow_second.yml
+    uses:partnerShaikShafivullaphilips/angular_project/.github/reusable_workflow_second.yml
