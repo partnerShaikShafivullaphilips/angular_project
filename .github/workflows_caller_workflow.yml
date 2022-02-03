@@ -5,10 +5,6 @@ name: Reusable Workflow user 2
 
 on:
   workflow_dispatch:
-
-jobs:
-  do-it:
-    runs-on: ubuntu-latest
   jobs:
   call-workflow:
     uses: partnerShaikShafivullaphilips/angular_project/.github/workflows/reusable.yml
